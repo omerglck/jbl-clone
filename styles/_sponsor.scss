@@ -1,0 +1,18 @@
+.sponsor {
+  gap: unset;
+  &__img {
+    width: 150px;
+    transition: transform 0.4s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &__container {
+    padding-block: 0.5rem 4.5rem;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    align-items: center;
+    gap: 5rem 4rem;
+  }
+}

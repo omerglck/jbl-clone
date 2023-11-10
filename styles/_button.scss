@@ -1,0 +1,20 @@
+.button {
+  background: var(--gradient-color);
+  padding: 0.75rem;
+  border-radius: 4rem;
+  color: white;
+  font-weight: var(--font-semi-bold);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  transition: box-shadow 0.4s;
+  i {
+    font-size: 2rem;
+    font-weight: initial;
+    color: var(--first-color);
+  }
+  &:hover {
+    box-shadow: 0 12px 32px hsla(23, 100%, 50%, 0.12);
+  }
+}
